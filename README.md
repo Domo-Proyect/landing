@@ -1,4 +1,15 @@
-# domo2
-# landing
-# landing
-# landing
+
+
+## Setting Up 
+
+### 1. Paso 
+`$ `
+
+### 1. Paso 
+`$ `
+
+### 1. Paso 
+`$ `
+
+### 1. Paso 
+`$ `
