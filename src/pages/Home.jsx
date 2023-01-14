@@ -5,7 +5,6 @@ import MilkyWay from '../assets/img/milkyway.png'
 import NFT from '../assets/img/NFT.png'
 import Card1 from '../assets/img/card1.png'
 import Land from '../assets/img/Land.png'
-import Invesments from '../components/Invesments';
 const Home = () => {
 
 
@@ -198,7 +197,6 @@ const Home = () => {
                     <img src={NFT} alt="" />
                 </Container>
             </section>
-
             <Container className='my-5 home3'>
                 <h1>
                     Conoce al equipo

@@ -1,15 +1,14 @@
 
 
-## Setting Up 
+## Actualización de Librerias  
 
-### 1. Paso 
+### 1. Instalación de react-bootstrap
 `$ `
 
-### 1. Paso 
+### 2. Instalación de react-router
 `$ `
 
-### 1. Paso 
+### 3. Instalación de react-scroll
 `$ `
 
-### 1. Paso 
-`$ `
+
