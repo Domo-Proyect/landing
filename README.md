@@ -11,4 +11,8 @@ npm i react-router-dom
 ### 3. Instalación de react-scroll
 npm i -S react-scroll
 
+### 3.5 Run build 
+npm run build 
 
+### 4. Correr el archivo
+npm run dev
