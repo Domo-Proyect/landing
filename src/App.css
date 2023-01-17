@@ -1,9 +1,21 @@
-body{
-  background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Poppins:wght@400;500&family=Space+Grotesk:wght@300;400;500&display=swap');
+:root {
+  --clr-white: #ffffff;
+  --clr-black: #1E2022;
+  --clr-grey: #E6E6E6;
+  --clr-pink3: #F5247D;
+  --clr-pink2: #F7559A;
+  --clr-pink1: #F986B7;
 }
 
+body{
+  background-color: var(--clr-black);
+}
+
+
+
 .App{
-  background-color: black;
+  background-color: var(--clr-black);
 }
 /*NAVBAR ------------------------------*/
 
@@ -31,7 +43,7 @@ body{
   height: calc(100vh - 100px);
   flex-direction: column;
   width: 100%;
-  background-color: black;
+  background-color: var(--clr-black);
   z-index: 1000;
 }
 
