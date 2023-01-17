@@ -30,7 +30,7 @@ const Navv = () => {
                 </svg>
                 <ul className={`ulNav ${visibility}`}>
                     <Link
-                        to="home3"
+                        to="home1"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -38,7 +38,7 @@ const Navv = () => {
                         <li className='liNav'>Inicio</li>
                     </Link>
                     <Link
-                        to="home3"
+                        to="home2"
                         spy={true}
                         smooth={true}
                         offset={-70}

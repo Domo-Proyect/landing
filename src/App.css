@@ -12,8 +12,6 @@ body{
   background-color: var(--clr-black);
 }
 
-
-
 .App{
   background-color: var(--clr-black);
 }
@@ -29,6 +27,8 @@ body{
   align-items: center;
   align-content: center;
   justify-content: space-around;
+  position: -webkit-sticky;
+  position: sticky;
  
 }
 
@@ -73,7 +73,7 @@ body{
   border-radius: 200px;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
 /* identical to box height */
@@ -151,13 +151,13 @@ body{
     padding: 15px 24px 16px;
     gap: 8px;
     width: 170px;
-    height: 68px;
+    height: 40px;
     background: #FFFFFF;
     border: 1px solid #F986B7;
     border-radius: 200px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
   /* identical to box height */
@@ -173,6 +173,9 @@ body{
 
 /*CONTAINER 1 ----------------------------*/
 
+.presentacion{
+  margin-top:100px;
+} 
 
 #NFTCollection{
   position: absolute;
@@ -198,9 +201,7 @@ body{
   text-align: center;
 }
 
-
-
-.header-a>h2, h1{
+.header-a>h1{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
@@ -209,6 +210,18 @@ body{
   /* or 32px */ 
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+
+.header-a>h2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 90%;
+  /* or 32px */ 
+  text-transform: uppercase;
+  color: var(--clr-pink1);;
 }
 
 .header-a>p{
@@ -232,7 +245,7 @@ body{
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .btn-regis1{
@@ -242,24 +255,41 @@ body{
   align-items: center;
   padding: 10px 20px 12px;
   gap: 8px;
-  background: linear-gradient(96.53deg, #F5247D 20.39%, rgba(249, 134, 183, 0.92) 93.69%);
+  background: linear-gradient(180deg, var(--clr-pink3) 70.04%, var(--clr-pink2) 100%);
   border: 1px solid #F986B7;
   box-shadow: 0px 2px 6px rgba(23, 5, 56, 0.4);
   border-radius: 200px;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 36px;
 /* identical to box height, or 150% */
-  letter-spacing: -1px;
+  letter-spacing: 3px;
   color: #FFFFFF;
 
 }
 
-
+@media (min-width: 900px){
+  .presentacion{
+    margin-top: 130px;
+  } 
+}
 
 @media (min-width: 1070px){
+
+  /* .presentacion{
+    position: static;
+    width: 1440px;
+    height: 800px;
+    left: 1px;
+    top: 105px;
+  }  */
+
+  .presentacion{
+    margin-top: 110px;
+  }
+
   #NFTCollection{
     width: calc(653px * .8);
     height: calc(250.16px * .8); 
@@ -285,7 +315,7 @@ body{
     
   }
   
-  .header-a>h2, h1{
+  .header-a>h1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -294,6 +324,18 @@ body{
     /* or 32px */ 
     text-transform: uppercase;
     color: #FFFFFF;
+    
+  }
+
+  .header-a>h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 100%;
+    /* or 32px */ 
+    text-transform: uppercase;
+    color: var(--clr-pink3);
     
   }
   
@@ -320,6 +362,7 @@ body{
 .w1{
   background-image: url('./assets/img/Fondo.png');
 }
+
 .w2{
   background-image: url('./assets/img/Fondo2.png');
 }
@@ -336,21 +379,7 @@ body{
   display: none;
 }
 
-.home2>h1{
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 42px;
-/* identical to box height */
-  text-align: center;
-  letter-spacing: 0.1em;
-  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F986B7 0%, #F5247D 56.46%, #1E2022 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
+
 
 .picture3{
   position: relative;
@@ -552,7 +581,7 @@ body{
 /* identical to box height */
   text-align: center;
   letter-spacing: 0.1em;
-  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F986B7 0%, #F5247D 56.46%, #1E2022 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #6ba107 0%, #F5247D 56.46%, #1E2022 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -564,23 +593,6 @@ body{
 }
 
 /*CONTAINER 3 ---------------------------*/
-
-.home3>h1{
-  text-align: center;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 42px;
-/* identical to box height */
-  text-align: center;
-  letter-spacing: 0.1em;
-  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F986B7 0%, #F5247D 56.46%, #1E2022 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
 
 .cards{
 /* Auto layout */
@@ -703,19 +715,7 @@ border-radius: 20px;
   
 }
 
-.btn-footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 24px 16px;
-  gap: 8px;
-  background: linear-gradient(96.53deg, #F5247D 20.39%, rgba(249, 134, 183, 0.92) 93.69%);
-  border: 1px solid #F986B7;
-  box-shadow: 0px 2px 6px rgba(23, 5, 56, 0.4);
-  border-radius: 200px;
 
-}
 
 .footer2{
   position: relative;
@@ -769,4 +769,23 @@ border-radius: 20px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+
+
+/* GENERALES */
+
+h1.subtitle{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #079098 0%, #F5247D 56.46%, #f7eb08 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
